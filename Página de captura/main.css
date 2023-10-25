@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./IMG/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.content-form {
+    width: 50%;
+    height: 600rem;
+    margin: 0 auto;
+    color: rgba(248, 248, 248, 0.597);
+}
+
+.div-logo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.div-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.content-form h1 {
+    font-size: 2.8125rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.content-form h2 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content-form h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 10px;
+    margin-right: 5px;
+}
+
+input[type="email"] {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 10px;
+    margin-right: 5px;
+}
+
+input::placeholder {
+    color: gray;
+    margin: 10px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 10px;
+    margin-right: 5px;
+}
+
+input[type="checkbox"]:hover {
+    background: rgb(37, 129, 200);
+}
+
+.content-form button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background: rgb(37, 129, 200);
+    color: rgb(243, 234, 234);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    margin-top: 25px;
+    box-shadow: rgb(56, 55, 55);
+}
+
+.content-form button:hover {
+    background: rgb(28, 216, 59);
+}
